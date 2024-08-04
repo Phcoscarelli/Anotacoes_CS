@@ -1,0 +1,73 @@
+Notas C#
+
+-----------------------------------------
+**Tipos de Variavel:**
+
+int a = 1;
+double a = 123.123;
+float a = 123.123f;
+char a = 'w';
+string a = "word";
+bool a = true;
+
+-----------------------------------------------
+**While, Switch**
+
+while (a < 5)
+{
+Console.WriteLine(a)
+a++;
+}
+
+switch (a)
+{
+Case "Hello":
+Console.WriteLine("Hello, how are you?");
+break;
+}
+-------------------------------------------------------
+**String Concatenation**
+
+ Console.Write($"This is the {a}° line");
+ Console.Write(String.Format("This is the {a}° line");
+Console.Write("This is the" + a + "line");
+-------------------------------------------------------------
+
+**Convert string to int**
+
+int a  = int.Parse(Console.ReadLine());
+int a  = Convert.ToInt32();
+-----------------------------------------------------
+
+Variável -> camelCase
+Classe, atributo e método ->  PascalCase
+
+---------------------------------------------------------
+**Data Atual**
+
+DateTime dataAtual =  DateTime.Now;
+Console.WriteLine(dataAtual);
+
+Adicionar data ->
+DateTime dataAtual = DateTime.Now.AddDays(5);
+
+Converter Data para String ->
+Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+
+---------------------------------------------------------------------
+**Array**
+
+int[] arr = { 0, 1, 2, 3, 4, 5 };
+tamanho arr ->  arr.Length
+
+for (int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+ou
+foreach(var number in arr)
+            {
+                Console.WriteLine(number);
+            }
+------------------------------------------------------------------------------
+
