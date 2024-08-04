@@ -70,15 +70,6 @@ foreach(var number in arr)
                 Console.WriteLine(number);
             }
 ------------------------------------------------------------------------------
-<<<<<<< Updated upstream
-**List**
-
-List<string> contato = new List<string>();
-contato.Add("Mike");
-contato.Remove("Mike");
-contato.Insert(1, "Ben"); onde 1 -> posição da lista
------------------------------------------------------------------------
-=======
 **Operadores Lógicos**
 
 
@@ -93,6 +84,42 @@ if (maiorDeIdade || possuiAutorizaçãoDoResponsavel)
 }
 else
 {
-    Console.WriteLine("Entrada não liberada");
+    Console.WriteLine("Entrada não liberada!");
 }
->>>>>>> Stashed changes
+
+"and" representado por && 
+
+bool possuiPresencaMinima = true;
+double media = 6.5;
+
+if (possuiPresencaMinima && media >= 7)
+{
+    Console.WriteLine("Aprovado!");
+}
+else 
+{
+    Console.WriteLine("Reprovado!");
+}
+
+"not" representado por ! 
+
+bool choveu = false;
+bool estaTarde = false;
+
+if (!choveu && !estaTarde)
+{
+    Console.WriteLine("Vou pedalar");
+}
+else
+{
+    Console.WriteLine("Vou pedalar um outro dia");
+}
+------------------------------------------------------------------------------
+**While Loop**
+
+var index = 0;
+while (index < 10)
+    {
+        Console.WriteLine(index);
+        index++;
+    }
