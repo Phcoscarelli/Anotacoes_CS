@@ -70,6 +70,7 @@ foreach(var number in arr)
                 Console.WriteLine(number);
             }
 ------------------------------------------------------------------------------
+<<<<<<< Updated upstream
 **List**
 
 List<string> contato = new List<string>();
@@ -77,3 +78,21 @@ contato.Add("Mike");
 contato.Remove("Mike");
 contato.Insert(1, "Ben"); onde 1 -> posição da lista
 -----------------------------------------------------------------------
+=======
+**Operadores Lógicos**
+
+
+"or" representado por || 
+
+bool maiorDeIdade = true;
+bool possuiAutorizaçãoDoResponsavel = false;
+
+if (maiorDeIdade || possuiAutorizaçãoDoResponsavel)
+{
+    Console.WriteLine("Entrada liberada!"); 
+}
+else
+{
+    Console.WriteLine("Entrada não liberada");
+}
+>>>>>>> Stashed changes
