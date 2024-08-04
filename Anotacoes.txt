@@ -70,4 +70,10 @@ foreach(var number in arr)
                 Console.WriteLine(number);
             }
 ------------------------------------------------------------------------------
+**List**
 
+List<string> contato = new List<string>();
+contato.Add("Mike");
+contato.Remove("Mike");
+contato.Insert(1, "Ben"); onde 1 -> posição da lista
+-----------------------------------------------------------------------
