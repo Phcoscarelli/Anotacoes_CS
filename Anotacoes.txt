@@ -54,7 +54,7 @@ DateTime dataAtual = DateTime.Now.AddDays(5);
 Converter Data para String ->
 Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
----------------------------------------------------------------------
+-----------------------------------------------------------------------------
 **Array**
 
 int[] arr = { 0, 1, 2, 3, 4, 5 };
@@ -70,6 +70,15 @@ foreach(var number in arr)
                 Console.WriteLine(number);
             }
 ------------------------------------------------------------------------------
+**List**
+
+List<string> contato = new List<string>();
+
+@@ -77,3 +78,21 @@ contato.Add("Mike");
+contato.Remove("Mike");
+contato.Insert(1, "Ben"); onde 1 -> posição da lista
+
+-------------------------------------------------------------------------------
 **Operadores Lógicos**
 
 
