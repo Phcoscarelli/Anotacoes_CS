@@ -132,3 +132,13 @@ while (index < 10)
         Console.WriteLine(index);
         index++;
     }
+------------------------------------------------------------------------------
+var index = 0;
+
+    do 
+    {
+        Console.WriteLine(index);
+        index++; 
+    }
+    while(index < 10); 
+
